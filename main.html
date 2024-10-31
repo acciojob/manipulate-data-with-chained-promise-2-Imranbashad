@@ -53,7 +53,7 @@
                 return new Promise((resolve) => {
                     setTimeout(() => {
                         const multipliedNumbers = evenNumbers.map((num) => num * 2);
-                        document.getElementById("output").textContent = multipliedNumbers.join(", ");
+                        document.getElementById("output").textContent = multipliedNumbers.join(",");
                         resolve(multipliedNumbers);
                     }, 2000);
                 });
